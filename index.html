@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="mfw.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="animated.css">
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <!-- START: PAGE HEADER -->
+        <h1>IT Help Desk</h1>
+        <!-- END: PAGE HEADER -->
+        <!-- start: PAGE CONTENT -->
+        <br />
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <select class="form-control">Help Desk</select>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pb-4">
+            <!-- ============== left-nav ================ -->
+            <div class="col-lg-3 animated fadeInDown">
+
+                <div class="pl-2"><span style="color:#EC874B ; font-weight: bold ; font-size: 1.5em">Team</span><span
+                        class="badge badge-default badger-for-header ml-2">45</span></div>
+
+                <div class="pl-4 left-nav scroll-bar badge-float li-hover" style="border-right: thin solid rgb(212, 212, 212);">
+                    <ul>
+                        <li class="pt-2 underline selected" id="pmk-1">Issa Abu-Mariam<span class="badge badge-default mr-3">7</span></li>
+                        <li class="pt-2 underline" id="pmk-2">abeer Al-Faqueer<span class="badge badge-default mr-3">5</span></li>
+                        <li class="pt-2 underline" id="pmk-3">Abeer Al-Mousa<span class="badge badge-default mr-3">6</span></li>
+                        <li class="pt-2 underline">Husam S. Jawan<span class="badge badge-default mr-3">10</span></li>
+                        <li class="pt-2 underline ">Ahmad M. Atout<span class="badge badge-default mr-3">12</span></li>
+                        <li class="pt-2 underline">Husam S. Jawan<span class="badge badge-default mr-3">3</span></li>
+                        <li class="pt-2 underline ">Ahmad M. Atout<span class="badge badge-default mr-3">11</span></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- ============== middle-nav ================ -->
+            <div class="col-lg-5 animated fadeInDown" style="animation-delay: 0.3s">
+
+                <div class="pl-2"><span class="nav-header">processes</span><span
+                        class="badge badge-default badger-for-header ml-2">45</span></div>
+
+                <div class="pl-4 middle-nav scroll-bar badge-float li-hover" style="border-right: thin solid rgb(212, 212, 212);">
+
+                    <ul id="pmk-1" class="show animated slideInLeft">
+                        <li class="pt-2 underline selected" id="pmk-1-1">New Employee Arrival<span class="badge badge-default mr-3">4</span></li>
+                        <li class="pt-2 underline" id="pmk-1-2">IT Support Ticket (Help Desk)<span class="badge badge-default mr-3">3</span></li>
+                        <li class="pt-2 underline">Change Request (Service Desk)<span class="badge badge-default mr-3">4</span></li>
+                        <li class="pt-2 underline">Define Configuration Item<span class="badge badge-default mr-3">2</span></li>
+                        <li class="pt-2 underline">Add new Modification (Configuration Management)<span class="badge badge-default mr-3">1</span></li>
+                        <li class="pt-2 underline">Request for Device or Equipment from IT<span class="badge badge-default mr-3">4</span></li>
+                    </ul>
+
+                    <ul id="pmk-2" class="hide animated slideInLeft">
+                        <li class="pt-2 underline " id="pmk-2-1">Define Configuration Item<span class="badge badge-default mr-3">2</span></li>
+                        <li class="pt-2 underline" id="pmk-2-2">Add new Modification (Configuration Management)<span class="badge badge-default mr-3">1</span></li>
+                        <li class="pt-2 underline">New Employee Arrival<span class="badge badge-default mr-3">4</span></li>
+                        <li class="pt-2 underline">IT Support Ticket (Help Desk)<span class="badge badge-default mr-3">3</span></li>
+                        <li class="pt-2 underline">Request for Device or Equipment from IT<span class="badge badge-default mr-3">4</span></li>
+                        <li class="pt-2 underline">Change Request (Service Desk)<span class="badge badge-default mr-3">4</span></li>
+                        <li class="pt-2 underline">Define Configuration Item<span class="badge badge-default mr-3">2</span></li>
+                        <li class="pt-2 underline ">New Employee Arrival<span class="badge badge-default mr-3">4</span></li>
+                        <li class="pt-2 underline">IT Support Ticket (Help Desk)<span class="badge badge-default mr-3">3</span></li>
+                    </ul>
+
+                    <ul id="pmk-3" class="hide animated slideInLeft">
+                        <li class="pt-2 underline ">Define Configuration Item<span class="badge badge-default mr-3">2</span></li>
+                        <li class="pt-2 underline ">New Employee Arrival<span class="badge badge-default mr-3">4</span></li>
+                        <li class="pt-2 underline">IT Support Ticket (Help Desk)<span class="badge badge-default mr-3">3</span></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- ============== right-nav ================ -->
+            <div class="col-lg-4 animated fadeInDown" style="animation-delay: 0.5s">
+
+                <div class="pl-2"><span class="nav-header right-nav-header">New Employee Arrival</span><span class="badge badge-default badger-for-header ml-2">45</span></div>
+
+                <div class="pl-4 right-nav scroll-bar badge-float">
+
+                    <ul class="animated slideInLeft show" id="pmk-1-1">
+                        <li class="pt-2"> Submit a Support Ticket <span class="mr-3">5</span></li>
+                        <li class="pt-2">Solving ticket (Service Desk)<span class="mr-3">5</span></li>
+                        <li class="pt-2"> Escalate to IT Manager<span class="mr-3">5</span></li>
+                        <li class="pt-2"> IT supervisor to give Final Closure<span class="mr-3">5</span></li>
+                        <li class="pt-2">Submit a Support Ticket<span class="mr-3">5</span></li>
+                        <li class="pt-2"> Submit a Support Ticket <span class="mr-3">5</span></li>
+                        <li class="pt-2"> Escalate to IT Manager<span class="mr-3">5</span></li>
+                    </ul>
+
+                    <ul class="animated slideInLeft hide" id="pmk-1-2">
+                        <li class="pt-2"> IT supervisor to give Final Closure<span class="mr-3">2</span></li>
+                        <li class="pt-2">Submit a Support Ticket<span class="mr-3">4</span></li>
+                        <li class="pt-2"> Submit a Support Ticket <span class="mr-3">5</span></li>
+                        <li class="pt-2"> Escalate to IT Manager<span class="mr-3">1</span></li>
+                        <li class="pt-2"> Submit a Support Ticket <span class="mr-3">2</span></li>
+                    </ul>
+
+                    <ul class="animated slideInLeft hide" id="pmk-2-1">
+                            <li class="pt-2"> Submit a Support Ticket <span class="mr-3">5</span></li>
+                        </ul>
+    
+                        <ul class="animated slideInLeft hide" id="pmk-2-2">
+                            <li class="pt-2"> IT supervisor to give Final Closure<span class="mr-3">2</span></li>
+                            <li class="pt-2">Submit a Support Ticket<span class="mr-3">4</span></li>
+                            <li class="pt-2"> Submit a Support Ticket <span class="mr-3">5</span></li>
+                            <li class="pt-2"> Escalate to IT Manager<span class="mr-3">1</span></li>
+                            <li class="pt-2"> Submit a Support Ticket <span class="mr-3">2</span></li>
+                        </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="mfw.js"></script>
+</body>
+
+</html>

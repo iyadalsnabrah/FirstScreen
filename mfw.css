@@ -1,0 +1,130 @@
+  ul {
+      list-style: none;
+      padding: 0;
+  }
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+  .selected {
+      color: rgb(255, 255, 255) !important;
+      font-weight: 500;
+      padding: 5px;
+      background-image: linear-gradient(to right, #18ABE0 , #1A6D93);
+  }
+.nav-header{
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+  /* badge style */
+  .badge-default {
+      background: #EC874B !important;
+      
+  }
+  .badger-for-header{
+    position: relative;
+    bottom: 5px;
+  }
+
+  .badge {
+      display: inline-block;
+      min-width: 10px;
+      padding: 3px 7px;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1;
+      color: #fff;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
+
+  /* badge style end*/
+
+  /* badge float and li hover */
+  .badge-float li span {
+      float: right;
+  }
+
+  .li-hover li {
+      cursor: pointer;
+      color: #007bff
+  }
+
+  .li-hover li:hover {
+      color: black;
+
+  }
+
+  /* badge float and li hover  end*/
+
+  /*style scroll-bar*/
+  .scroll-bar {
+     padding: 10px;
+     height: 200px;
+     overflow: hidden;
+     /* overflow-y: scroll; */
+}
+
+  .scroll-bar:hover {
+      overflow-y: scroll;
+  }
+
+  .scroll-bar::-webkit-scrollbar {
+      /* width: 3px */
+      width: 5px;
+      height: 5px;
+  }
+
+  .scroll-bar::-webkit-scrollbar-track {
+      background: rgb(236, 236, 236);
+  }
+
+  .scroll-bar::-webkit-scrollbar-thumb {
+      background: rgba(24, 171, 226, 1);
+  }
+
+  /*style for scroll-bar end*/
+
+  /* underline style */
+
+  .underline {
+      position: relative;
+      transition: all 0.6s;
+  }
+
+  .underline:before {
+      content: "";
+      width: 0;
+      height: 0.1em;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      background: #18ABE0;
+      transition: all 0.3s;
+  }
+
+  .underline:hover:before {
+      width: 100%;
+      left: 0;
+      background: #18ABE0;
+  }
+
+  /* underline style end*/
+
+
+  .right-nav ul li span{
+      color: rgb(179, 179, 179);
+  }
+  .right-nav ul li {
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+}
